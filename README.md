@@ -30,4 +30,8 @@ To use sorting functionality for your table, you can implement the following ste
 4. Click on "↓" button  to sort the content of table in descending order.
 
 
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
 
