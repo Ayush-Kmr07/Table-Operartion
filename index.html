@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Student Data</h1>
+   
+    <input type="text" id="input" class="inputDesign" placeholder="Search by name ..." onkeyup="searchFun()">
+   
+    <table class="table" id="table">
+        <thead>
+          <tr>
+            <th scope="col" class="col">Roll<button class="arrow" onclick="ascSortTable(0)">↑</button><button class="arrow" onclick="descSortTable(0)">↓</button></th>
+            <th scope="col" class="col">Name<button class="arrow" onclick="ascSortTable(1)">↑</button><button  class="arrow" onclick="descSortTable(1)">↓</button></th>
+            <th scope="col" class="col">Marks<button class="arrow" onclick="ascSortTable(2)">↑</button><button class="arrow" onclick="descSortTable(2)">↓</button></th>
+            <th scope="col" class="col">Grade</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td scope="row">1</td>
+            <td>Aditya</td>
+            <td>92</td>
+            <td>A+</td>
+          </tr>
+          <tr>
+            <td scope="row">2</td>
+            <td>Anshika</td>
+            <td>95</td>
+            <td>A+</td>
+          </tr>
+          <tr>
+            <td scope="row">3</td>
+            <td>Rahul</td>
+            <td>87</td>
+            <td>A</td>
+          </tr>
+          <tr>
+            <td scope="row">4</td>
+            <td>Shivam</td>
+            <td>85</td>
+            <td>A</td>
+          </tr>
+          <tr>
+            <td scope="row">5</td>
+            <td>Manish</td>
+            <td>75</td>
+            <td>B</td>
+          </tr>
+          <tr>
+            <td scope="row">6</td>
+            <td>Nikhil</td>
+            <td>91</td>
+            <td>A+</td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <script src="index.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

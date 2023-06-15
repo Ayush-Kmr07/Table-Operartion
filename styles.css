@@ -1,0 +1,40 @@
+
+
+.inputDesign{
+    width: 40%;
+    margin-bottom:15px;
+    
+    padding: 5px 0 5px 15px;
+    border: 10px solid #dee2e6;
+}
+h1{
+    padding: 20px;
+    color: #866698;
+}
+table{
+
+    margin-right: 20px;
+    border: 10px solid;
+    
+}
+
+.arrow{
+    border: none;
+    margin-left: 2.5px;
+    background-color:white; 
+    color: rgb(59, 54, 54);
+    font-weight: 900;
+}
+
+@media only screen and (max-width: 768px) {
+   .inputDesign{
+    width: 50%;
+   }
+  }
+  @media only screen and (max-width: 600px) {
+    .inputDesign{
+     width: 65%;
+    }
+   }
+ 
+
